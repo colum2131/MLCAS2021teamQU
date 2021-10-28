@@ -1,6 +1,6 @@
 # MLCAS2021teamQU
 
-This is the code for the MLCAS2021 Crop Yield Prediction Challenge.
+This is the code for [MLCAS2021 Crop Yield Prediction Challenge](https://eval.ai/web/challenges/challenge-page/1251/overview).
 
 The directory structure is shown below.
 ```
