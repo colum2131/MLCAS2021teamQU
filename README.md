@@ -21,4 +21,23 @@ docker-compoese up --build
 ```
 
 The code is main.ipynb in exp006.
-Thanks
+
+# Solution
+
+Model
+* [lightGBM](https://lightgbm.readthedocs.io/en/latest/)
+* 10 seed averaging
+
+Features
+* Weather Features
+   * statistical features(Maximum, Minimum, Mean, Median, Standard deviation, Skewness)
+* Other Features
+   * Ordinal Encoding
+   * Count Encoding
+   * Target Encoding(only Genotype ID, Location)
+* Combine multiple features(Combine other features into a new variable)
+   * Ordinal Encoding
+   * Count Encoding
+
+Cross Validation
+* StratifiedKFold(Genotype ID)
